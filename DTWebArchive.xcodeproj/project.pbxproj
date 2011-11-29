@@ -26,8 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A71CDA9014111EEF000E602A /* UIPasteboard+DTWebArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIPasteboard+DTWebArchive.h"; path = "../../../../Open Source/DTWebArchive/DTWebArchive/Core/UIPasteboard+DTWebArchive.h"; sourceTree = "<group>"; };
-		A71CDA9114111EEF000E602A /* UIPasteboard+DTWebArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIPasteboard+DTWebArchive.m"; path = "../../../../Open Source/DTWebArchive/DTWebArchive/Core/UIPasteboard+DTWebArchive.m"; sourceTree = "<group>"; };
+		A71CDA9014111EEF000E602A /* UIPasteboard+DTWebArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPasteboard+DTWebArchive.h"; sourceTree = "<group>"; };
+		A71CDA9114111EEF000E602A /* UIPasteboard+DTWebArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPasteboard+DTWebArchive.m"; sourceTree = "<group>"; };
 		A73FA68A1410D3B5009B4411 /* DTWebResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTWebResource.h; sourceTree = "<group>"; };
 		A73FA68B1410D3B5009B4411 /* DTWebResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTWebResource.m; sourceTree = "<group>"; };
 		A73FA6961410DF69009B4411 /* YouTubeFrame.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = YouTubeFrame.plist; sourceTree = "<group>"; };
@@ -181,7 +181,7 @@
 		A7697CC61410CC6400F25129 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = A7697CC91410CC6400F25129 /* Build configuration list for PBXProject "DTWebArchive" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -293,6 +293,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DTWebArchive/DTWebArchive-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "DTWebArchive/DTWebArchive-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -304,6 +305,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DTWebArchive/DTWebArchive-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "DTWebArchive/DTWebArchive-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
